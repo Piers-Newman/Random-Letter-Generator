@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #9aa7ff 0%, #c4c4fa 100%);
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    max-width: 90%;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.settings {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings label {
+    margin-right: 10px;
+    font-weight: 500;
+    color: #555;
+}
+
+.settings select, .settings input[type="number"], .settings input[type="checkbox"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.settings input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: #6ba4ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4b57ff;
+    transform: scale(1.05);
+}
+
+.output {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    word-break: break-word;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
